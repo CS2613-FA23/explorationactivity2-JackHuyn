@@ -42,9 +42,9 @@ I select the pandas package in python to be my topic research for the first expo
 
             This line here need to run everytime in the main program, this will initial all the need function for the game
 
-    pygame.display.set_mode(width, height) 
+    screen = pygame.display.set_mode(width, height) 
 
-            this line will create a black screen with the dimension specify by the user 
+            this line will create a black screen with the dimension specify by the user and call it screen
     
     clock = pygame.time.Clock()
     clock.tick(60)
@@ -73,12 +73,39 @@ I select the pandas package in python to be my topic research for the first expo
 
             Ex:
             color_surf = pygame.Surface((100,200))
-
             color_surf.fill('Red')
 
             # this 2 lines of code will create a surface that have a size of 100x200, then fill the surface with the color red
 
         
+    Example block of code
+
+            while True:
+                #checks if "quit" is in the list of events and exits if true
+                for event in pygame.event.get():
+                    if event.type == pygame.QUIT:
+                        pygame.quit()
+                        sys.exit()
+                    if event.type == pygame.KEYDOWN:
+                        print('Down')
+
+            In this example, if you want to let the code keep running, you can use the while true, or can specify the condition for when the game should run
+
+            when the program is running, pygame has lots of events happen per frame, so the pygame.event.get() will return a list of event
+            the event.type will return the type of that event.
+
+            You can explore more about the event type in pygame doc
+
+    Display image on top of each other
+
+            you can achhive this using blit (stand for block image transfer aka (regular) surface on another surface)
+
+            ex:
+                Let take the screen and the color_surf above
+
+                screen.blit(color_surf, (x,y))
+
+                here x and y are the position to place them, it always be the top-left corner of the color surface
 
 
         
