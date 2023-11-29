@@ -1,2 +1,18 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/kCrKdl4V)
-# ExplorationActivity2
+ ExplorationActivity2
+
+## Question
+#### Which package/library does the sample program demonstrate?
+
+    The sample program will be a working tetris game using pygame and display data using pandas
+
+#### How does someone run your program?
+
+    Before running the code, they need to install both pandas and pygame
+    You can simply run the code from VS Code / Or run it in cmd using python3
+
+#### What purpose does your program serve?
+
+    To create simple game using image, color. The game will be tetris will some basic color and concept with display leaderboard will be using data as the data frame display.
+
+#### What would be some sample input/output?
+    
