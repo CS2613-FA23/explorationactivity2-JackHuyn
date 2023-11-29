@@ -28,7 +28,7 @@ I select the pandas package in python to be my topic research for the first expo
         To install pandas, type : > "pip3 install pandas" in the terminal. 
         To install pygame, type : > "pip3 install pygame"
     
-    Some basic function to use when using pandas
+    Function used when using pandas
 
     Dataframe()
 
@@ -36,13 +36,62 @@ I select the pandas package in python to be my topic research for the first expo
 
             Ex: data = pandas.DataFrame(sth)
 
+    Basic function for pygame
+
+    pygame.init()
+
+            This line here need to run everytime in the main program, this will initial all the need function for the game
+
+    pygame.display.set_mode(width, height) 
+
+            this line will create a black screen with the dimension specify by the user 
+    
+    clock = pygame.time.Clock()
+    clock.tick(60)
+
+            Here you create a clock class, then set the tick to 60
+            which can be understand as there will be no more than 60 image being display per sec 
+
+            This line of code is importand since it determine how fast your game will be
+
+            On the other hand, this can be also understand as FPS (Frame per second)
+
+    pygame.display.update()
+
+            The main code will need to be updated per clock tick
+            this will display all the images per tick
+
+    pygame.display.set_caption("Tetris")
+
+            This will set your window title as "Tetris" you can modify the string inside the ""
+
+
+    Creating surface/area and display a images
+
+            Everytimg you want to display an image into your screen 
+            you want to create a surface and then display that on your surface
+
+            Ex:
+            color_surf = pygame.Surface((100,200))
+
+            color_surf.fill('Red')
+
+            # this 2 lines of code will create a surface that have a size of 100x200, then fill the surface with the color red
+
+        
+
+
         
         
 3.  What are the functionalities of the package?/library?
 
+    Pandas
     a  To analyze the data set from JSON, csv or excel file. 
     b  To make a graph, calculate probability, vv
     c  Mainly for working with data sets
+
+    Pygame
+    To display image, play sound 
 
 4.  When was it created?
 
