@@ -30,6 +30,12 @@ I select the pandas package in python to be my topic research for the first expo
     
     Some basic function to use when using pandas
 
+    Dataframe()
+
+            This function convert a array of data into a Dataframe ( use for multitple data input)
+
+            Ex: data = pandas.DataFrame(sth)
+
         
         
 3.  What are the functionalities of the package?/library?
@@ -41,7 +47,7 @@ I select the pandas package in python to be my topic research for the first expo
 4.  When was it created?
 
     Pandas was created in January 11 2008
-    Pygame was
+    Pygame was created in October 28 2000
 
 5.  Why did you select this package/library?
 
@@ -63,4 +69,5 @@ I select the pandas package in python to be my topic research for the first expo
     It was really fun when coding the game, lots of mistake, but i learn more from failing. 
 
 ## References
+https://en.wikipedia.org/wiki/Pygame
 
