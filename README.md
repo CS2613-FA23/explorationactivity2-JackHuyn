@@ -21,3 +21,5 @@
 ![Tetris gameplay](<output1.png>)
 
     The extra output is the platformer game, which i already convert it into .exe file so it doesnt need to use cmd or VSCode to run
+
+![Platformer gampplay](<output2.png>)
