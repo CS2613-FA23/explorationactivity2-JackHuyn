@@ -17,4 +17,5 @@
 #### What would be some sample input/output?
     The output for this exploration will be a tetris game for 2 player to compete against each other
 
+    ![Tetris gameplay](/assets/images/output1.png)
     The extra output is the platformer game, which i already convert it into .exe file so it doesnt need to use cmd or VSCode to run

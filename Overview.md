@@ -1,6 +1,6 @@
 ## Package/ Library Overview
 #### Which package/library did you select?
-I select the pandas package in python to be my topic research for the first exporation activities
+I select the pygame package in python to be my 2nd topic research, i also working with Namneet for the EA2, we both code and tryout pygame and pandas at the same time.
 
 1.  What is the package/library?
 
@@ -94,7 +94,7 @@ I select the pandas package in python to be my topic research for the first expo
             when the program is running, pygame has lots of events happen per frame, so the pygame.event.get() will return a list of event
             the event.type will return the type of that event.
 
-            You can explore more about the event type in pygame doc
+            You can explore more about the event type in pygame doc (1)
 
     Display image on top of each other
 
@@ -108,6 +108,17 @@ I select the pandas package in python to be my topic research for the first expo
                 here x and y are the position to place them, it always be the top-left corner of the color surface
 
 
+    If you loading the image from the file, you can simply do this:
+
+            player_stand = pygame.image.load('graphics/player/player_stand.png').convert_alpha()
+
+            play_stand_rect = player_stand.get_rect(center = (400,200))
+
+            screen.blit(player_stand, player_stand_rect)
+
+            This will place the player image within the player_rect at location 400x200, the get_rect will return the dimension of the image, create a surface for it
+
+
         
         
 3.  What are the functionalities of the package?/library?
@@ -119,11 +130,12 @@ I select the pandas package in python to be my topic research for the first expo
 
     Pygame
     To display image, play sound 
+    It also can handle colission between images vs images (ex: hitbox, boundary, etc..)
 
 4.  When was it created?
 
     Pandas was created in January 11 2008
-    Pygame was created in October 28 2000
+    Pygame was created in October 28 2000 (2)
 
 5.  Why did you select this package/library?
 
@@ -145,5 +157,6 @@ I select the pandas package in python to be my topic research for the first expo
     It was really fun when coding the game, lots of mistake, but i learn more from failing. 
 
 ## References
-https://en.wikipedia.org/wiki/Pygame
+(1) https://en.wikipedia.org/wiki/Pygame
+(2) https://www.pygame.org/docs/
 
